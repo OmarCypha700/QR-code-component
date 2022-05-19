@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+body{
+    width: 90%;
+   background:hsl(219, 33%, 79%) ; 
+
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(211, 13%, 41%);
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 4%;
+    margin: 0 auto;
+}
+
+img{
+    width: auto;
+    border-radius: 8%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width:480) {
+    .card{
+        width: 200px;
+    }
+}
+
+
+.news_card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    background: whitesmoke;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    padding: 10px 10px;
+    align-self:normal;
+    text-align:start;
+    border-radius: 10px;
+}
