@@ -37,6 +37,7 @@ p{
     background: hsl(0, 0%, 100%);
     border-radius: 4%;
     margin: 0 auto;
+    text-align: center;
 }
 
 img{
@@ -47,11 +48,6 @@ img{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (min-width:480) {
-    .card{
-        width: 200px;
-    }
-}
 
 
 .news_card{
