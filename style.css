@@ -2,19 +2,17 @@
 
 body{
    background:hsl(219, 33%, 79%) ; 
-
+   font-family: 'Open Sans', sans-serif;
 }
 
 h1{
     font-size: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
 
 p{
     font-size: 0.8rem;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: hsl(211, 13%, 41%);
 }
@@ -40,7 +38,12 @@ img{
     border-radius: 6%;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 1rem; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 
 
